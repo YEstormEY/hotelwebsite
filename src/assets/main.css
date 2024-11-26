@@ -1,0 +1,31 @@
+/* Global Font Styling */
+html, body {
+    font-family: 'Roboto', Arial, sans-serif; /* Primary font */
+    font-size: 16px; /* Base font size */
+    color: #343a40; /* Default text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', Arial, sans-serif; /* Ensure headings use the same font */
+    font-weight: 700; /* Make headings bold */
+    color: #212529; /* Slightly darker color for emphasis */
+}
+
+/* Paragraphs */
+p {
+    font-family: 'Roboto', Arial, sans-serif; /* Match the body font */
+    font-size: 1rem; /* Standard paragraph size */
+    color: #6c757d; /* Softer text color for less emphasis */
+}
+
+/* Buttons and Links */
+button, a {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 500; /* Slightly bold for interactive elements */
+    text-transform: capitalize; /* Capitalize text for better readability */
+    color: inherit; /* Use inherited text color */
+}

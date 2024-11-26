@@ -1,0 +1,2152 @@
+[
+  {
+    "title": "Destination 1",
+    "name": "Gentle Breeze Retreat",
+    "alt": null,
+    "address": "Random Street 1, City 1, Country 1",
+    "directions": "Take the main road towards City 1, then follow the signs to Destination 1.",
+    "phone": "+123 456 7801",
+    "tollfree": null,
+    "email": "info347@hotel1.com",
+    "fax": null,
+    "url": "http://www.hotel1.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$139 per night",
+    "content": "A serene escape with breathtaking views of the surroundings.",
+    "geo": {
+      "lat": 51.24357,
+      "lon": 138.7537
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5001,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Standard Room",
+        "price": "$139 per night",
+        "availability": true
+      },
+      {
+        "type": "Suite",
+        "price": "$345 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$187 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 2",
+    "name": "Blossom Hill Hotel",
+    "alt": null,
+    "address": "Random Street 2, City 2, Country 2",
+    "directions": "Take the main road towards City 2, then follow the signs to Destination 2.",
+    "phone": "+123 456 7802",
+    "tollfree": null,
+    "email": "info23@hotel2.com",
+    "fax": null,
+    "url": "http://www.hotel2.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$136 per night",
+    "content": "Features modern facilities and a prime location near major attractions.",
+    "geo": {
+      "lat": -39.30568,
+      "lon": -17.21849
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5002,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$457 per night",
+        "availability": false
+      },
+      {
+        "type": "Standard Room",
+        "price": "$136 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$352 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 3",
+    "name": "Cedarwood Suites",
+    "alt": null,
+    "address": "Random Street 3, City 3, Country 3",
+    "directions": "Take the main road towards City 3, then follow the signs to Destination 3.",
+    "phone": "+123 456 7803",
+    "tollfree": null,
+    "email": "info864@hotel3.com",
+    "fax": null,
+    "url": "http://www.hotel3.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$207 per night",
+    "content": "A hidden gem offering peace and relaxation for every guest.",
+    "geo": {
+      "lat": 1.02494,
+      "lon": -176.78485
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5003,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$311 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$368 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$207 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 4",
+    "name": "Lush Gardens Lodge",
+    "alt": null,
+    "address": "Random Street 4, City 4, Country 4",
+    "directions": "Take the main road towards City 4, then follow the signs to Destination 4.",
+    "phone": "+123 456 7804",
+    "tollfree": null,
+    "email": "info330@hotel4.com",
+    "fax": null,
+    "url": "http://www.hotel4.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$58 per night",
+    "content": "Offers world-class amenities and a tranquil atmosphere.",
+    "geo": {
+      "lat": -22.86622,
+      "lon": -178.2882
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5004,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$283 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$58 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$369 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 5",
+    "name": "Moonlit Oasis",
+    "alt": null,
+    "address": "Random Street 5, City 5, Country 5",
+    "directions": "Take the main road towards City 5, then follow the signs to Destination 5.",
+    "phone": "+123 456 7805",
+    "tollfree": null,
+    "email": "info242@hotel5.com",
+    "fax": null,
+    "url": "http://www.hotel5.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$126 per night",
+    "content": "A serene escape with breathtaking views of the surroundings.",
+    "geo": {
+      "lat": -68.66152,
+      "lon": 108.97306
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5005,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$150 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$126 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$373 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 6",
+    "name": "Sunset Valley Retreat",
+    "alt": null,
+    "address": "Random Street 6, City 6, Country 6",
+    "directions": "Take the main road towards City 6, then follow the signs to Destination 6.",
+    "phone": "+123 456 7806",
+    "tollfree": null,
+    "email": "info617@hotel6.com",
+    "fax": null,
+    "url": "http://www.hotel6.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$141 per night",
+    "content": "Perfect for travelers seeking luxury and comfort in a picturesque setting.",
+    "geo": {
+      "lat": -86.83455,
+      "lon": -106.41169
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5006,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$262 per night",
+        "availability": true
+      },
+      {
+        "type": "Suite",
+        "price": "$252 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$141 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 7",
+    "name": "Serendipity Suites",
+    "alt": null,
+    "address": "Random Street 7, City 7, Country 7",
+    "directions": "Take the main road towards City 7, then follow the signs to Destination 7.",
+    "phone": "+123 456 7807",
+    "tollfree": null,
+    "email": "info921@hotel7.com",
+    "fax": null,
+    "url": "http://www.hotel7.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$180 per night",
+    "content": "Known for its stunning architecture and impeccable service.",
+    "geo": {
+      "lat": -16.60122,
+      "lon": 164.20103
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5007,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$239 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$180 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$224 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 8",
+    "name": "Harmony Haven",
+    "alt": null,
+    "address": "Random Street 8, City 8, Country 8",
+    "directions": "Take the main road towards City 8, then follow the signs to Destination 8.",
+    "phone": "+123 456 7808",
+    "tollfree": null,
+    "email": "info309@hotel8.com",
+    "fax": null,
+    "url": "http://www.hotel8.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$145 per night",
+    "content": "Features modern facilities and a prime location near major attractions.",
+    "geo": {
+      "lat": 89.32325,
+      "lon": 128.20007
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5008,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$181 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$145 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$166 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 9",
+    "name": "Dreamcatcher Resort",
+    "alt": null,
+    "address": "Random Street 9, City 9, Country 9",
+    "directions": "Take the main road towards City 9, then follow the signs to Destination 9.",
+    "phone": "+123 456 7809",
+    "tollfree": null,
+    "email": "info957@hotel9.com",
+    "fax": null,
+    "url": "http://www.hotel9.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$109 per night",
+    "content": "A hidden gem offering peace and relaxation for every guest.",
+    "geo": {
+      "lat": -84.57806,
+      "lon": -81.40088
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5009,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$192 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$363 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$109 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 10",
+    "name": "Golden Grove Hotel",
+    "alt": null,
+    "address": "Random Street 10, City 10, Country 10",
+    "directions": "Take the main road towards City 10, then follow the signs to Destination 10.",
+    "phone": "+123 456 7810",
+    "tollfree": null,
+    "email": "info60@hotel10.com",
+    "fax": null,
+    "url": "http://www.hotel10.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$79 per night",
+    "content": "Perfect for travelers seeking luxury and comfort in a picturesque setting.",
+    "geo": {
+      "lat": -64.90494,
+      "lon": -38.85264
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5010,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$413 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$79 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$183 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 11",
+    "name": "Ocean Breeze Resort",
+    "alt": null,
+    "address": "Random Street 11, City 11, Country 11",
+    "directions": "Take the main road towards City 11, then follow the signs to Destination 11.",
+    "phone": "+123 456 7811",
+    "tollfree": null,
+    "email": "info757@hotel11.com",
+    "fax": null,
+    "url": "http://www.hotel11.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$150 per night",
+    "content": "A hidden gem offering peace and relaxation for every guest.",
+    "geo": {
+      "lat": 79.43987,
+      "lon": 165.43367
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5011,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$150 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$200 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$495 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 12",
+    "name": "Gentle Breeze Retreat",
+    "alt": null,
+    "address": "Random Street 12, City 12, Country 12",
+    "directions": "Take the main road towards City 12, then follow the signs to Destination 12.",
+    "phone": "+123 456 7812",
+    "tollfree": null,
+    "email": "info283@hotel12.com",
+    "fax": null,
+    "url": "http://www.hotel12.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$60 per night",
+    "content": "Known for its stunning architecture and impeccable service.",
+    "geo": {
+      "lat": 27.63375,
+      "lon": -51.89947
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5012,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$193 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$60 per night",
+        "availability": true
+      },
+      {
+        "type": "Suite",
+        "price": "$258 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 13",
+    "name": "Eclipse Lodge",
+    "alt": null,
+    "address": "Random Street 13, City 13, Country 13",
+    "directions": "Take the main road towards City 13, then follow the signs to Destination 13.",
+    "phone": "+123 456 7813",
+    "tollfree": null,
+    "email": "info485@hotel13.com",
+    "fax": null,
+    "url": "http://www.hotel13.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$252 per night",
+    "content": "Perfect for travelers seeking luxury and comfort in a picturesque setting.",
+    "geo": {
+      "lat": -4.37547,
+      "lon": -19.69408
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5013,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$252 per night",
+        "availability": false
+      },
+      {
+        "type": "Suite",
+        "price": "$356 per night",
+        "availability": true
+      },
+      {
+        "type": "Suite",
+        "price": "$263 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 14",
+    "name": "Silver Moon Resort",
+    "alt": null,
+    "address": "Random Street 14, City 14, Country 14",
+    "directions": "Take the main road towards City 14, then follow the signs to Destination 14.",
+    "phone": "+123 456 7814",
+    "tollfree": null,
+    "email": "info104@hotel14.com",
+    "fax": null,
+    "url": "http://www.hotel14.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$130 per night",
+    "content": "Features modern facilities and a prime location near major attractions.",
+    "geo": {
+      "lat": -57.99169,
+      "lon": -171.22197
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5014,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Standard Room",
+        "price": "$130 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$445 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$182 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 15",
+    "name": "Serene Sands Hotel",
+    "alt": null,
+    "address": "Random Street 15, City 15, Country 15",
+    "directions": "Take the main road towards City 15, then follow the signs to Destination 15.",
+    "phone": "+123 456 7815",
+    "tollfree": null,
+    "email": "info364@hotel15.com",
+    "fax": null,
+    "url": "http://www.hotel15.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$200 per night",
+    "content": "Known for its stunning architecture and impeccable service.",
+    "geo": {
+      "lat": -66.10964,
+      "lon": 10.01569
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5015,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$486 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$200 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$285 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 16",
+    "name": "Golden Grove Hotel",
+    "alt": null,
+    "address": "Random Street 16, City 16, Country 16",
+    "directions": "Take the main road towards City 16, then follow the signs to Destination 16.",
+    "phone": "+123 456 7816",
+    "tollfree": null,
+    "email": "info908@hotel16.com",
+    "fax": null,
+    "url": "http://www.hotel16.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$127 per night",
+    "content": "Perfect for travelers seeking luxury and comfort in a picturesque setting.",
+    "geo": {
+      "lat": 35.50865,
+      "lon": 176.42214
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5016,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$421 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$127 per night",
+        "availability": false
+      },
+      {
+        "type": "Standard Room",
+        "price": "$148 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 17",
+    "name": "Whispering Pines Retreat",
+    "alt": null,
+    "address": "Random Street 17, City 17, Country 17",
+    "directions": "Take the main road towards City 17, then follow the signs to Destination 17.",
+    "phone": "+123 456 7817",
+    "tollfree": null,
+    "email": "info414@hotel17.com",
+    "fax": null,
+    "url": "http://www.hotel17.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$116 per night",
+    "content": "Features modern facilities and a prime location near major attractions.",
+    "geo": {
+      "lat": -5.14034,
+      "lon": -162.53862
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5017,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Standard Room",
+        "price": "$116 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$252 per night",
+        "availability": false
+      },
+      {
+        "type": "Suite",
+        "price": "$387 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 18",
+    "name": "Serendipity Suites",
+    "alt": null,
+    "address": "Random Street 18, City 18, Country 18",
+    "directions": "Take the main road towards City 18, then follow the signs to Destination 18.",
+    "phone": "+123 456 7818",
+    "tollfree": null,
+    "email": "info182@hotel18.com",
+    "fax": null,
+    "url": "http://www.hotel18.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$93 per night",
+    "content": "A serene escape with breathtaking views of the surroundings.",
+    "geo": {
+      "lat": 58.14899,
+      "lon": -142.50422
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5018,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$304 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$236 per night",
+        "availability": false
+      },
+      {
+        "type": "Standard Room",
+        "price": "$93 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 19",
+    "name": "Meadowview Inn",
+    "alt": null,
+    "address": "Random Street 19, City 19, Country 19",
+    "directions": "Take the main road towards City 19, then follow the signs to Destination 19.",
+    "phone": "+123 456 7819",
+    "tollfree": null,
+    "email": "info974@hotel19.com",
+    "fax": null,
+    "url": "http://www.hotel19.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$176 per night",
+    "content": "Offers world-class amenities and a tranquil atmosphere.",
+    "geo": {
+      "lat": -38.97894,
+      "lon": 177.99671
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5019,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$252 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$363 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$176 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 20",
+    "name": "Azure Skies Resort",
+    "alt": null,
+    "address": "Random Street 20, City 20, Country 20",
+    "directions": "Take the main road towards City 20, then follow the signs to Destination 20.",
+    "phone": "+123 456 7820",
+    "tollfree": null,
+    "email": "info189@hotel20.com",
+    "fax": null,
+    "url": "http://www.hotel20.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$158 per night",
+    "content": "A serene escape with breathtaking views of the surroundings.",
+    "geo": {
+      "lat": -85.28656,
+      "lon": -61.80926
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5020,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$158 per night",
+        "availability": false
+      },
+      {
+        "type": "Suite",
+        "price": "$393 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$193 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 21",
+    "name": "Starlight Ridge Resort",
+    "alt": null,
+    "address": "Random Street 21, City 21, Country 21",
+    "directions": "Take the main road towards City 21, then follow the signs to Destination 21.",
+    "phone": "+123 456 7821",
+    "tollfree": null,
+    "email": "info531@hotel21.com",
+    "fax": null,
+    "url": "http://www.hotel21.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$195 per night",
+    "content": "Enjoy the perfect mix of luxury and simplicity in this charming retreat.",
+    "geo": {
+      "lat": -69.88747,
+      "lon": 20.26953
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5021,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$253 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$195 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$280 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 22",
+    "name": "Ivory Coast Lodge",
+    "alt": null,
+    "address": "Random Street 22, City 22, Country 22",
+    "directions": "Take the main road towards City 22, then follow the signs to Destination 22.",
+    "phone": "+123 456 7822",
+    "tollfree": null,
+    "email": "info981@hotel22.com",
+    "fax": null,
+    "url": "http://www.hotel22.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$86 per night",
+    "content": "Offers world-class amenities and a tranquil atmosphere.",
+    "geo": {
+      "lat": 89.76478,
+      "lon": 179.83404
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5022,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$277 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$86 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$289 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 23",
+    "name": "Willow Brook Lodge",
+    "alt": null,
+    "address": "Random Street 23, City 23, Country 23",
+    "directions": "Take the main road towards City 23, then follow the signs to Destination 23.",
+    "phone": "+123 456 7823",
+    "tollfree": null,
+    "email": "info677@hotel23.com",
+    "fax": null,
+    "url": "http://www.hotel23.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$261 per night",
+    "content": "Perfect for travelers seeking luxury and comfort in a picturesque setting.",
+    "geo": {
+      "lat": -23.03918,
+      "lon": 162.68018
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5023,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$261 per night",
+        "availability": true
+      },
+      {
+        "type": "Suite",
+        "price": "$317 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$402 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 24",
+    "name": "Lush Gardens Lodge",
+    "alt": null,
+    "address": "Random Street 24, City 24, Country 24",
+    "directions": "Take the main road towards City 24, then follow the signs to Destination 24.",
+    "phone": "+123 456 7824",
+    "tollfree": null,
+    "email": "info414@hotel24.com",
+    "fax": null,
+    "url": "http://www.hotel24.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$150 per night",
+    "content": "A serene escape with breathtaking views of the surroundings.",
+    "geo": {
+      "lat": 45.63335,
+      "lon": -120.2483
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5024,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$199 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$150 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$482 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 25",
+    "name": "Lily Pad Inn",
+    "alt": null,
+    "address": "Random Street 25, City 25, Country 25",
+    "directions": "Take the main road towards City 25, then follow the signs to Destination 25.",
+    "phone": "+123 456 7825",
+    "tollfree": null,
+    "email": "info590@hotel25.com",
+    "fax": null,
+    "url": "http://www.hotel25.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$108 per night",
+    "content": "Known for its stunning architecture and impeccable service.",
+    "geo": {
+      "lat": -67.07743,
+      "lon": 144.09831
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5025,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Standard Room",
+        "price": "$108 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$361 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$423 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 26",
+    "name": "Serene Sands Hotel",
+    "alt": null,
+    "address": "Random Street 26, City 26, Country 26",
+    "directions": "Take the main road towards City 26, then follow the signs to Destination 26.",
+    "phone": "+123 456 7826",
+    "tollfree": null,
+    "email": "info619@hotel26.com",
+    "fax": null,
+    "url": "http://www.hotel26.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$210 per night",
+    "content": "Features modern facilities and a prime location near major attractions.",
+    "geo": {
+      "lat": -15.61295,
+      "lon": 121.32967
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5026,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$210 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$229 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$497 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 27",
+    "name": "Moonlit Oasis",
+    "alt": null,
+    "address": "Random Street 27, City 27, Country 27",
+    "directions": "Take the main road towards City 27, then follow the signs to Destination 27.",
+    "phone": "+123 456 7827",
+    "tollfree": null,
+    "email": "info617@hotel27.com",
+    "fax": null,
+    "url": "http://www.hotel27.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$112 per night",
+    "content": "Offers world-class amenities and a tranquil atmosphere.",
+    "geo": {
+      "lat": 18.65657,
+      "lon": 34.21067
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5027,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$444 per night",
+        "availability": false
+      },
+      {
+        "type": "Standard Room",
+        "price": "$112 per night",
+        "availability": true
+      },
+      {
+        "type": "Suite",
+        "price": "$375 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 28",
+    "name": "Blossom Hill Hotel",
+    "alt": null,
+    "address": "Random Street 28, City 28, Country 28",
+    "directions": "Take the main road towards City 28, then follow the signs to Destination 28.",
+    "phone": "+123 456 7828",
+    "tollfree": null,
+    "email": "info509@hotel28.com",
+    "fax": null,
+    "url": "http://www.hotel28.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$205 per night",
+    "content": "A serene escape with breathtaking views of the surroundings.",
+    "geo": {
+      "lat": -44.1327,
+      "lon": 88.73605
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5028,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$393 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$408 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$205 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 29",
+    "name": "Moonlit Oasis",
+    "alt": null,
+    "address": "Random Street 29, City 29, Country 29",
+    "directions": "Take the main road towards City 29, then follow the signs to Destination 29.",
+    "phone": "+123 456 7829",
+    "tollfree": null,
+    "email": "info168@hotel29.com",
+    "fax": null,
+    "url": "http://www.hotel29.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$92 per night",
+    "content": "A hidden gem offering peace and relaxation for every guest.",
+    "geo": {
+      "lat": 77.96093,
+      "lon": -87.77284
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5029,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$184 per night",
+        "availability": false
+      },
+      {
+        "type": "Suite",
+        "price": "$264 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$92 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 30",
+    "name": "Celestial Heights Resort",
+    "alt": null,
+    "address": "Random Street 30, City 30, Country 30",
+    "directions": "Take the main road towards City 30, then follow the signs to Destination 30.",
+    "phone": "+123 456 7830",
+    "tollfree": null,
+    "email": "info646@hotel30.com",
+    "fax": null,
+    "url": "http://www.hotel30.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$143 per night",
+    "content": "Known for its stunning architecture and impeccable service.",
+    "geo": {
+      "lat": -0.36717,
+      "lon": -29.57918
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5030,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$143 per night",
+        "availability": false
+      },
+      {
+        "type": "Suite",
+        "price": "$355 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$143 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 31",
+    "name": "Starry Nights Inn",
+    "alt": null,
+    "address": "Random Street 31, City 31, Country 31",
+    "directions": "Take the main road towards City 31, then follow the signs to Destination 31.",
+    "phone": "+123 456 7831",
+    "tollfree": null,
+    "email": "info38@hotel31.com",
+    "fax": null,
+    "url": "http://www.hotel31.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$81 per night",
+    "content": "An ideal getaway for nature lovers and adventurers alike.",
+    "geo": {
+      "lat": -29.39655,
+      "lon": 124.00926
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5031,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$352 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$167 per night",
+        "availability": false
+      },
+      {
+        "type": "Standard Room",
+        "price": "$81 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 32",
+    "name": "Lily Pad Inn",
+    "alt": null,
+    "address": "Random Street 32, City 32, Country 32",
+    "directions": "Take the main road towards City 32, then follow the signs to Destination 32.",
+    "phone": "+123 456 7832",
+    "tollfree": null,
+    "email": "info689@hotel32.com",
+    "fax": null,
+    "url": "http://www.hotel32.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$101 per night",
+    "content": "A hidden gem offering peace and relaxation for every guest.",
+    "geo": {
+      "lat": -47.94144,
+      "lon": -113.16903
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5032,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$472 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$161 per night",
+        "availability": false
+      },
+      {
+        "type": "Standard Room",
+        "price": "$101 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 33",
+    "name": "Serendipity Suites",
+    "alt": null,
+    "address": "Random Street 33, City 33, Country 33",
+    "directions": "Take the main road towards City 33, then follow the signs to Destination 33.",
+    "phone": "+123 456 7833",
+    "tollfree": null,
+    "email": "info384@hotel33.com",
+    "fax": null,
+    "url": "http://www.hotel33.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$209 per night",
+    "content": "Known for its stunning architecture and impeccable service.",
+    "geo": {
+      "lat": 63.61915,
+      "lon": 148.89443
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5033,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$230 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$209 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$418 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 34",
+    "name": "Amberlight Retreat",
+    "alt": null,
+    "address": "Random Street 34, City 34, Country 34",
+    "directions": "Take the main road towards City 34, then follow the signs to Destination 34.",
+    "phone": "+123 456 7834",
+    "tollfree": null,
+    "email": "info872@hotel34.com",
+    "fax": null,
+    "url": "http://www.hotel34.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$259 per night",
+    "content": "Known for its stunning architecture and impeccable service.",
+    "geo": {
+      "lat": -84.84689,
+      "lon": -40.69917
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5034,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$259 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$456 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$375 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 35",
+    "name": "Mystic Falls Lodge",
+    "alt": null,
+    "address": "Random Street 35, City 35, Country 35",
+    "directions": "Take the main road towards City 35, then follow the signs to Destination 35.",
+    "phone": "+123 456 7835",
+    "tollfree": null,
+    "email": "info820@hotel35.com",
+    "fax": null,
+    "url": "http://www.hotel35.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$149 per night",
+    "content": "Perfect for travelers seeking luxury and comfort in a picturesque setting.",
+    "geo": {
+      "lat": -64.41964,
+      "lon": 71.38155
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5035,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Deluxe Room",
+        "price": "$149 per night",
+        "availability": false
+      },
+      {
+        "type": "Suite",
+        "price": "$315 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$396 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 36",
+    "name": "Opal Shores Hotel",
+    "alt": null,
+    "address": "Random Street 36, City 36, Country 36",
+    "directions": "Take the main road towards City 36, then follow the signs to Destination 36.",
+    "phone": "+123 456 7836",
+    "tollfree": null,
+    "email": "info942@hotel36.com",
+    "fax": null,
+    "url": "http://www.hotel36.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$104 per night",
+    "content": "Enjoy the perfect mix of luxury and simplicity in this charming retreat.",
+    "geo": {
+      "lat": -68.51351,
+      "lon": -157.87887
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5036,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Standard Room",
+        "price": "$104 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$157 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$113 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 37",
+    "name": "Starlight Ridge Resort",
+    "alt": null,
+    "address": "Random Street 37, City 37, Country 37",
+    "directions": "Take the main road towards City 37, then follow the signs to Destination 37.",
+    "phone": "+123 456 7837",
+    "tollfree": null,
+    "email": "info30@hotel37.com",
+    "fax": null,
+    "url": "http://www.hotel37.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$161 per night",
+    "content": "A cozy and welcoming hotel, perfect for families and solo travelers.",
+    "geo": {
+      "lat": -2.4313,
+      "lon": 35.1364
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5037,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$402 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$161 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$383 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 38",
+    "name": "Sunset Valley Retreat",
+    "alt": null,
+    "address": "Random Street 38, City 38, Country 38",
+    "directions": "Take the main road towards City 38, then follow the signs to Destination 38.",
+    "phone": "+123 456 7838",
+    "tollfree": null,
+    "email": "info174@hotel38.com",
+    "fax": null,
+    "url": "http://www.hotel38.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$288 per night",
+    "content": "A serene escape with breathtaking views of the surroundings.",
+    "geo": {
+      "lat": -40.28419,
+      "lon": 109.96888
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5038,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$467 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$288 per night",
+        "availability": false
+      },
+      {
+        "type": "Suite",
+        "price": "$326 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 39",
+    "name": "Twilight Pines Inn",
+    "alt": null,
+    "address": "Random Street 39, City 39, Country 39",
+    "directions": "Take the main road towards City 39, then follow the signs to Destination 39.",
+    "phone": "+123 456 7839",
+    "tollfree": null,
+    "email": "info860@hotel39.com",
+    "fax": null,
+    "url": "http://www.hotel39.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$182 per night",
+    "content": "Enjoy the perfect mix of luxury and simplicity in this charming retreat.",
+    "geo": {
+      "lat": -36.41104,
+      "lon": -145.08337
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5039,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$186 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$182 per night",
+        "availability": true
+      },
+      {
+        "type": "Suite",
+        "price": "$332 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 40",
+    "name": "Emerald Escape",
+    "alt": null,
+    "address": "Random Street 40, City 40, Country 40",
+    "directions": "Take the main road towards City 40, then follow the signs to Destination 40.",
+    "phone": "+123 456 7840",
+    "tollfree": null,
+    "email": "info966@hotel40.com",
+    "fax": null,
+    "url": "http://www.hotel40.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$219 per night",
+    "content": "A cozy and welcoming hotel, perfect for families and solo travelers.",
+    "geo": {
+      "lat": 50.37732,
+      "lon": -31.75522
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5040,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$388 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$219 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$234 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 41",
+    "name": "Silver Moon Resort",
+    "alt": null,
+    "address": "Random Street 41, City 41, Country 41",
+    "directions": "Take the main road towards City 41, then follow the signs to Destination 41.",
+    "phone": "+123 456 7841",
+    "tollfree": null,
+    "email": "info627@hotel41.com",
+    "fax": null,
+    "url": "http://www.hotel41.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$205 per night",
+    "content": "A cozy and welcoming hotel, perfect for families and solo travelers.",
+    "geo": {
+      "lat": 78.66422,
+      "lon": -69.59724
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5041,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$278 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$205 per night",
+        "availability": false
+      },
+      {
+        "type": "Family Room",
+        "price": "$285 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 42",
+    "name": "Shimmering Lake Hotel",
+    "alt": null,
+    "address": "Random Street 42, City 42, Country 42",
+    "directions": "Take the main road towards City 42, then follow the signs to Destination 42.",
+    "phone": "+123 456 7842",
+    "tollfree": null,
+    "email": "info481@hotel42.com",
+    "fax": null,
+    "url": "http://www.hotel42.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$149 per night",
+    "content": "Offers world-class amenities and a tranquil atmosphere.",
+    "geo": {
+      "lat": -55.42919,
+      "lon": -43.19082
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5042,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$349 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$367 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$149 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 43",
+    "name": "Harmony Haven",
+    "alt": null,
+    "address": "Random Street 43, City 43, Country 43",
+    "directions": "Take the main road towards City 43, then follow the signs to Destination 43.",
+    "phone": "+123 456 7843",
+    "tollfree": null,
+    "email": "info658@hotel43.com",
+    "fax": null,
+    "url": "http://www.hotel43.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$151 per night",
+    "content": "Enjoy the perfect mix of luxury and simplicity in this charming retreat.",
+    "geo": {
+      "lat": -86.47474,
+      "lon": 128.72473
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5043,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Suite",
+        "price": "$377 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$270 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$151 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 44",
+    "name": "Blossom Hill Hotel",
+    "alt": null,
+    "address": "Random Street 44, City 44, Country 44",
+    "directions": "Take the main road towards City 44, then follow the signs to Destination 44.",
+    "phone": "+123 456 7844",
+    "tollfree": null,
+    "email": "info633@hotel44.com",
+    "fax": null,
+    "url": "http://www.hotel44.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$81 per night",
+    "content": "Offers world-class amenities and a tranquil atmosphere.",
+    "geo": {
+      "lat": 24.91642,
+      "lon": -135.11812
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5044,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Standard Room",
+        "price": "$81 per night",
+        "availability": false
+      },
+      {
+        "type": "Suite",
+        "price": "$383 per night",
+        "availability": true
+      },
+      {
+        "type": "Suite",
+        "price": "$385 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 45",
+    "name": "Emerald Escape",
+    "alt": null,
+    "address": "Random Street 45, City 45, Country 45",
+    "directions": "Take the main road towards City 45, then follow the signs to Destination 45.",
+    "phone": "+123 456 7845",
+    "tollfree": null,
+    "email": "info831@hotel45.com",
+    "fax": null,
+    "url": "http://www.hotel45.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$175 per night",
+    "content": "A cozy and welcoming hotel, perfect for families and solo travelers.",
+    "geo": {
+      "lat": 14.08554,
+      "lon": -141.53706
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5045,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$392 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$227 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$175 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 46",
+    "name": "Amberlight Retreat",
+    "alt": null,
+    "address": "Random Street 46, City 46, Country 46",
+    "directions": "Take the main road towards City 46, then follow the signs to Destination 46.",
+    "phone": "+123 456 7846",
+    "tollfree": null,
+    "email": "info708@hotel46.com",
+    "fax": null,
+    "url": "http://www.hotel46.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$150 per night",
+    "content": "Features modern facilities and a prime location near major attractions.",
+    "geo": {
+      "lat": 73.56721,
+      "lon": 74.19555
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5046,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$290 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$439 per night",
+        "availability": false
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$150 per night",
+        "availability": true
+      }
+    ]
+  },
+  {
+    "title": "Destination 47",
+    "name": "Starlight Ridge Resort",
+    "alt": null,
+    "address": "Random Street 47, City 47, Country 47",
+    "directions": "Take the main road towards City 47, then follow the signs to Destination 47.",
+    "phone": "+123 456 7847",
+    "tollfree": null,
+    "email": "info351@hotel47.com",
+    "fax": null,
+    "url": "http://www.hotel47.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$92 per night",
+    "content": "Offers world-class amenities and a tranquil atmosphere.",
+    "geo": {
+      "lat": 58.03721,
+      "lon": 41.30335
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5047,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$400 per night",
+        "availability": false
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$428 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$92 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 48",
+    "name": "Lily Pad Inn",
+    "alt": null,
+    "address": "Random Street 48, City 48, Country 48",
+    "directions": "Take the main road towards City 48, then follow the signs to Destination 48.",
+    "phone": "+123 456 7848",
+    "tollfree": null,
+    "email": "info747@hotel48.com",
+    "fax": null,
+    "url": "http://www.hotel48.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$62 per night",
+    "content": "Known for its stunning architecture and impeccable service.",
+    "geo": {
+      "lat": -72.55187,
+      "lon": -25.23808
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5048,
+    "availability": false,
+    "rooms": [
+      {
+        "type": "Family Room",
+        "price": "$285 per night",
+        "availability": true
+      },
+      {
+        "type": "Standard Room",
+        "price": "$62 per night",
+        "availability": false
+      },
+      {
+        "type": "Standard Room",
+        "price": "$80 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 49",
+    "name": "Starlight Ridge Resort",
+    "alt": null,
+    "address": "Random Street 49, City 49, Country 49",
+    "directions": "Take the main road towards City 49, then follow the signs to Destination 49.",
+    "phone": "+123 456 7849",
+    "tollfree": null,
+    "email": "info10@hotel49.com",
+    "fax": null,
+    "url": "http://www.hotel49.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$463 per night",
+    "content": "A hidden gem offering peace and relaxation for every guest.",
+    "geo": {
+      "lat": -64.755,
+      "lon": 1.35044
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5049,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$463 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$483 per night",
+        "availability": true
+      },
+      {
+        "type": "Luxury Suite",
+        "price": "$467 per night",
+        "availability": false
+      }
+    ]
+  },
+  {
+    "title": "Destination 50",
+    "name": "Cedarwood Suites",
+    "alt": null,
+    "address": "Random Street 50, City 50, Country 50",
+    "directions": "Take the main road towards City 50, then follow the signs to Destination 50.",
+    "phone": "+123 456 7850",
+    "tollfree": null,
+    "email": "info818@hotel50.com",
+    "fax": null,
+    "url": "http://www.hotel50.com",
+    "hours": null,
+    "checkin": "15:00",
+    "checkout": "11:00",
+    "image": null,
+    "price": "$170 per night",
+    "content": "Perfect for travelers seeking luxury and comfort in a picturesque setting.",
+    "geo": {
+      "lat": -70.12002,
+      "lon": -118.42866
+    },
+    "activity": "sleep",
+    "type": "landmark",
+    "id": 5050,
+    "availability": true,
+    "rooms": [
+      {
+        "type": "Luxury Suite",
+        "price": "$373 per night",
+        "availability": true
+      },
+      {
+        "type": "Family Room",
+        "price": "$234 per night",
+        "availability": true
+      },
+      {
+        "type": "Deluxe Room",
+        "price": "$170 per night",
+        "availability": false
+      }
+    ]
+  }
+]
