@@ -54,7 +54,8 @@ npm run dev
 3. Gebruikers kunnen de beschikbaarheid van kamers controleren.
 4. Gebruikers kunnen de verschillende prijzen per kamer bekijken.
 
-##  Tests
+##  Tests 
+(staan in het mapje tests)
 #### Een overzicht van alle uitgevoerde tests:
 1. **Functionele tests**:
    - Gebruikers kunnen een lijst van hotels bekijken.
