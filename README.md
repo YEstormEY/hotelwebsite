@@ -6,7 +6,7 @@ Dit project is een website waar gebruikers makkelijk een lijst van hotels kunnen
 ## Installatie
 1. Clone de repository
 ```bash
-git clone LINK GITHUB REPO
+git clone [LINK GITHUB REPO](https://github.com/YEstormEY/hotelwebsite.git)
 cd hotelwebsite
 ```
 
