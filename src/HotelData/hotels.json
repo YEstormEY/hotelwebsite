@@ -66,7 +66,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5002,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Luxury Suite",
@@ -152,7 +152,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5004,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Suite",
@@ -238,12 +238,12 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5006,
-    "availability": true,
+    "availability": false,
     "rooms": [
       {
         "type": "Family Room",
         "price": "$262 per night",
-        "availability": true
+        "availability": false
       },
       {
         "type": "Suite",
@@ -324,7 +324,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5008,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Deluxe Room",
@@ -367,7 +367,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5009,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Deluxe Room",
@@ -410,7 +410,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5010,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Luxury Suite",
@@ -496,7 +496,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5012,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Deluxe Room",
@@ -539,7 +539,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5013,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Suite",
@@ -625,7 +625,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5015,
-    "availability": true,
+    "availability": false,
     "rooms": [
       {
         "type": "Luxury Suite",
@@ -711,7 +711,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5017,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Standard Room",
@@ -969,7 +969,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5023,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Family Room",
@@ -1055,7 +1055,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5025,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Standard Room",
@@ -1098,7 +1098,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5026,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Family Room",
@@ -1141,7 +1141,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5027,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Luxury Suite",
@@ -1270,7 +1270,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5030,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Deluxe Room",
@@ -1313,7 +1313,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5031,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Suite",
@@ -1399,7 +1399,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5033,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Family Room",
@@ -1442,7 +1442,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5034,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Family Room",
@@ -1743,7 +1743,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5041,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Family Room",
@@ -1973,7 +1973,7 @@
       {
         "type": "Deluxe Room",
         "price": "$150 per night",
-        "availability": true
+        "availability": false
       }
     ]
   },
@@ -2044,7 +2044,7 @@
     "activity": "sleep",
     "type": "landmark",
     "id": 5048,
-    "availability": false,
+    "availability": true,
     "rooms": [
       {
         "type": "Family Room",
