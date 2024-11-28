@@ -6,6 +6,7 @@ import Hotel from "@/components/Hotel.vue";
 
 // Define the routes
 const routes = [
+    { path: '/', redirect: '/Hotels' }, // Default route
     { path: '/Hotels', component: HotelPage },
     {
         path: '/Hotels/:id',
