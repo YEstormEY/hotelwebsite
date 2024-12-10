@@ -36,6 +36,10 @@ export default {
         this.currentPage = page;
       }
     },
+
+    goToHotel(id) {
+      this.$router.push({name: 'hotel', params: {id: id}});
+    },
   },
 };
 </script>
@@ -43,17 +47,17 @@ export default {
 <template>
   <h1>Hotels</h1>
   <div class="container">
-    <div class="hotel-card" v-for="hotel in paginatedHotels" :key="hotel.id">
-      <img src="https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png"
-           :alt="hotel.name"/>
+    <div class="hotel-card" v-for="hotel in paginatedHotels" :key="hotel.id" @click="goToHotel(hotel.id)">
+      <img :src="hotel.image || 'https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png'"
+           alt="Hotel Image"/>
       <div class="hotel-header">
         <h2>{{ hotel.name }}</h2>
-        <span :class="hotel.availability ? 'available' : 'not-available'">
+        <span :class="['badge', hotel.availability ? 'badge-available' : 'badge-not-available']">
           {{ hotel.availability ? 'Available' : 'Not Available' }}
         </span>
         <router-link
             :to="{ name: 'hotel', params: { id: hotel.id }}"
-            class="hotel-price-link"
+            class="button button-primary"
         >
           View for {{ hotel.price }}
         </router-link>
@@ -62,19 +66,36 @@ export default {
     </div>
   </div>
 
+  <!-- Pagination Buttons -->
   <div class="pagination">
-    <button @click="goToPage(currentPage - 1)" :disabled="currentPage === 1">Previous</button>
+    <!-- Previous Button -->
+    <button
+        @click="goToPage(currentPage - 1)"
+        :disabled="currentPage === 1"
+        :class="['button', currentPage === 1 ? 'button-secondary' : 'button-primary']">
+      Previous
+    </button>
+
+    <!-- Page Number Buttons -->
     <button
         v-for="page in totalPages"
         :key="page"
         @click="goToPage(page)"
-        :class="{ active: currentPage === page }"
+        :class="['button', currentPage === page ? 'button-primary' : 'button-secondary']"
     >
       {{ page }}
     </button>
-    <button @click="goToPage(currentPage + 1)" :disabled="currentPage === totalPages">Next</button>
+
+    <!-- Next Button -->
+    <button
+        @click="goToPage(currentPage + 1)"
+        :disabled="currentPage === totalPages"
+        :class="['button', currentPage === totalPages ? 'button-secondary' : 'button-primary']">
+      Next
+    </button>
   </div>
 </template>
+
 
 <style scoped>
 /* General Styles */
@@ -144,27 +165,26 @@ img {
 
 
 /* Availability Badge */
-.hotel-header .available,
-.hotel-header .not-available {
+.badge {
   display: inline-block;
   padding: 5px 10px;
   border-radius: 15px;
   font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
+  color: white;
+  margin: 10px;
 }
 
-.hotel-header .available {
+/* Available and not available badge colors */
+.badge-available {
   background-color: #28a745;
-  color: white;
-  margin: 10px;
 }
 
-.hotel-header .not-available {
+.badge-not-available {
   background-color: #dc3545;
-  color: white;
-  margin: 10px;
 }
+
 
 /* Hotel Description */
 .hotel-card p {
@@ -174,66 +194,48 @@ img {
   line-height: 1.5;
 }
 
-/* Hotel Price Button */
-.hotel-price-link {
+/* Pagination Container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+
+/* General Button Styles */
+.button {
   display: inline-block;
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: bold;
-  color: white;
-  background-color: #007bff;
-  text-decoration: none;
+  text-align: center;
   border-radius: 5px;
-  transition: background-color 0.3s, box-shadow 0.3s;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
-.hotel-price-link:hover {
+/* Active State (Primary Button) */
+.button-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-primary:hover {
   background-color: #0056b3;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
 }
 
-.hotel-price-link:active {
+.button-primary:active {
   background-color: #004085;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-
-/* Pagination */
-.pagination {
-  text-align: center;
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.pagination button {
-  padding: 10px 15px;
-  border: none;
+/* Disabled State (Secondary Button) */
+.button-secondary {
   background-color: #e9ecef;
   color: #495057;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.pagination button.active {
-  background-color: #007bff;
-  color: white;
-  font-weight: bold;
-}
-
-.pagination button:hover:not(:disabled) {
-  background-color: #0056b3;
-  color: white;
-}
-
-.pagination button:disabled {
-  cursor: not-allowed;
-  background-color: #e9ecef;
-  color: #adb5bd;
-  opacity: 0.6;
 }
 
 /* Responsive Design */

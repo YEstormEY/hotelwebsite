@@ -26,7 +26,6 @@ export default {
     // Function to get the hotel based on the id
     getHotel() {
       this.hotel = this.hotels.find((hotel) => hotel.id === this.id);
-      console.log('Hotel:', this.hotel);
     }
   },
 
@@ -38,19 +37,25 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <div class="top-section">
-      <div class="hotel">
+  <div class="container" v-if="hotel">
+    <!-- Top Section -->
+    <div class="top-section flex flex-column flex-responsive">
+      <div class="hotel card">
         <h1>{{ hotel.name }}</h1>
-        <img src="https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png"
-             :alt="hotel.name"/>
+        <img :src="hotel.image || 'https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png'" alt="Hotel Image" />
         <p>{{ hotel.content }}</p>
-        <p>Availability: {{ hotel.availability ? 'Available' : 'Not Available' }}</p>
+        <p>
+          <span class="badge" :class="hotel.availability ? 'available' : 'unavailable'">
+            Availability: {{ hotel.availability ? 'Available' : 'Not Available' }}
+          </span>
+        </p>
         <p>Address: {{ hotel.address }}</p>
       </div>
-      <div class="order">
+
+      <!-- Order Section -->
+      <div class="order card">
         <h2>Order</h2>
-        <select v-model="selectedRoom">
+        <select v-model="selectedRoom" class="input">
           <option value="" disabled selected>Choose here</option>
           <option
               v-for="room in hotel.rooms"
@@ -62,23 +67,45 @@ export default {
         </select>
         <p v-if="selectedRoom">Price: {{ selectedRoom.price }}</p>
         <p v-else>Select a room to see the price</p>
-        <button :disabled="!selectedRoom || !selectedRoom.availability">Order</button>
+        <button :disabled="!selectedRoom || !selectedRoom.availability" class="button button-primary">
+          Order
+        </button>
       </div>
     </div>
-    <div class="rooms">
+
+    <!-- Rooms Section -->
+    <div class="rooms card">
       <h2>Rooms</h2>
       <div class="room" v-for="room in hotel.rooms" :key="room.id">
         <h3>{{ room.type }}</h3>
         <p>Price: {{ room.price }}</p>
-        <p v-if="!room.availability" class="available">availability: not available</p>
-        <p v-if="room.availability" class="not-available">availability: available</p>
+        <p>
+          <span class="badge" :class="room.availability ? 'available' : 'unavailable'">
+            availability: {{ room.availability ? 'available' : 'not available' }}
+          </span>
+        </p>
       </div>
     </div>
+  </div>
+
+  <!-- Not Found Section -->
+  <div v-else class="notFound">
+    <h1>404</h1>
+    <h4>Hotel not found</h4>
   </div>
 </template>
 
 
+
 <style scoped>
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -86,20 +113,29 @@ export default {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.top-section {
+/* Utility Flexbox Classes */
+.flex {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
-  align-items: flex-start;
 }
 
-.hotel {
-  flex: 3;
+.flex-column {
+  flex-direction: column;
+}
+
+
+
+@media (min-width: 768px) {
+  .flex-responsive {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Card Component */
+.card {
   padding: 20px;
   background-color: white;
   border: 1px solid #ccc;
@@ -107,74 +143,29 @@ export default {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.hotel img {
-  max-width: 100%;
+.card img {
+  width: 100%;
   height: auto;
-  margin-bottom: 15px;
   border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+/* Hotel Content */
+.hotel {
+  flex: 3;
 }
 
 .order {
   flex: 1;
-  padding: 20px;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 8px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.order button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-}
-
-.order button:hover {
-  background-color: #0056b3;
-}
-
-.order select {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  font-size: 1rem;
-  color: #333;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.order select:hover {
-  border-color: #007bff;
-}
-
-.order select:focus {
-  outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-.order option {
-  padding: 10px;
-}
-
 
 .rooms {
   margin-top: 20px;
-  padding: 20px;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Room Styling */
 .room {
   margin-bottom: 15px;
   padding: 15px;
@@ -192,13 +183,70 @@ export default {
   margin: 5px 0;
 }
 
-.available {
-  color: red;
+/* Badge Utility */
+.badge {
   font-weight: bold;
 }
 
-.not-available {
+.badge.available {
   color: green;
-  font-weight: bold;
 }
+
+.badge.unavailable {
+  color: red;
+}
+
+/* Button Styling */
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #0056b3;
+}
+
+.button-primary:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+/* Input Fields */
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Not Found Page */
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 </style>

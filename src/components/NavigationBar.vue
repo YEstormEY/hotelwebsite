@@ -7,7 +7,9 @@ export default {
 <template>
   <nav>
     <ul>
-      <router-link to="/Hotels" tag="li"><a>Hotels</a></router-link>
+  <router-link to="/hotels">
+    <span>hotels</span>
+  </router-link>
     </ul>
   </nav>
 
