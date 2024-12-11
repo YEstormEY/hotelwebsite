@@ -37,6 +37,7 @@ export default {
       }
     },
 
+    // Function to navigate to the page of the selected hotel sends id as parameter(prop)
     goToHotel(id) {
       this.$router.push({name: 'hotel', params: {id: id}});
     },
@@ -117,10 +118,10 @@ h1 {
 /* Hotel Cards */
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three cards per row */
-  gap: 20px; /* Space between the cards */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   padding: 20px;
-  max-width: 1400px; /* Adjusted for wider layout */
+  max-width: 1400px;
   margin: 0 auto;
 }
 

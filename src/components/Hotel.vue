@@ -183,7 +183,7 @@ body {
   margin: 5px 0;
 }
 
-/* Badge Utility */
+/* Badge styling */
 .badge {
   font-weight: bold;
 }
