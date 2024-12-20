@@ -17,8 +17,15 @@ export default {
     return {
       hotels: hotels,
       hotel: {},
-      selectedRoom: null,
+      selectedRoomType: "", // Holds the selected room's type
     };
+  },
+
+  computed: {
+    // Find the selected room object based on its type
+    selectedRoom() {
+      return this.hotel.rooms?.find((room) => room.type === this.selectedRoomType);
+    },
   },
 
   // Define the methods
@@ -45,7 +52,7 @@ export default {
         <img :src="hotel.image || 'https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-1-scaled-1150x647.png'" alt="Hotel Image" />
         <p>{{ hotel.content }}</p>
         <p>
-          <span class="badge" :class="hotel.availability ? 'available' : 'unavailable'">
+          <span class="badge" :class="hotel.availability ? 'badge-available' : 'badge-not-available'">
             Availability: {{ hotel.availability ? 'Available' : 'Not Available' }}
           </span>
         </p>
@@ -55,12 +62,12 @@ export default {
       <!-- Order Section -->
       <div class="order card">
         <h2>Order</h2>
-        <select v-model="selectedRoom" class="input">
+        <select v-model="selectedRoomType" class="input">
           <option value="" disabled selected>Choose here</option>
           <option
               v-for="room in hotel.rooms"
-              :key="room.id"
-              :value="room"
+              :key="room.type"
+              :value="room.type"
               :disabled="!room.availability">
             {{ room.type }}
           </option>
@@ -80,7 +87,7 @@ export default {
         <h3>{{ room.type }}</h3>
         <p>Price: {{ room.price }}</p>
         <p>
-          <span class="badge" :class="room.availability ? 'available' : 'unavailable'">
+          <span class="badge" :class="room.availability ? 'badge-available' : 'badge-not-available'">
             availability: {{ room.availability ? 'available' : 'not available' }}
           </span>
         </p>
@@ -185,16 +192,24 @@ body {
 
 /* Badge styling */
 .badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
   font-weight: bold;
+  text-align: center;
+  color: white;
 }
 
-.badge.available {
-  color: green;
+/* Available and Not Available Badge Colors */
+.badge-available {
+  background-color: #28a745;
 }
 
-.badge.unavailable {
-  color: red;
+.badge-not-available {
+  background-color: #dc3545;
 }
+
 
 /* Button Styling */
 .button {
